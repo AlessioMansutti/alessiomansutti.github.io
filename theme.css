@@ -104,6 +104,10 @@ ul {
     margin: 50px; 
     text-justify: inter-word;
     max-width: 850px;
+
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .conference{
