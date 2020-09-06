@@ -31,6 +31,15 @@ body {
   margin: 0px;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
 a {
     color: var(--link-color);
     font-weight: bold;
