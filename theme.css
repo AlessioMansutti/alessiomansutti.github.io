@@ -93,17 +93,61 @@ ul {
 .gray-button {background-color: #e7e7e7; color: black;} /* Gray */
 
 /* For desktop: */
-.col-1 {width: 100%;}
+.col-1 {
+    width: 100%;
+}
+
 .col-05 {width: 50%;
     border-style: solid;
     border-color: white;
     border-width: 8px;
 }
 
+.res-desc-L {
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.res-desc-R {
+    width:73%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.research-image{
+    border-style: solid;
+    border-color: var(--link-color);
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:85%;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+  }
+
+  [class*="res-desc-L"] {
+    width: 100%;
+    justify-content: center;
+  }
+  [class*="res-desc-R"] {
+    width: 100%;
+  }
+
+  [class*="research-image"] {
+    border-style: solid;
+    border-color: var(--link-color);
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:66%;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -137,21 +181,4 @@ ul {
 .researchtitle {
     text-align: center;
   }
-
-.research-image{
-    border-style: solid;
-    border-color: var(--link-color);
-    margin: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width:85%;
-}
-
-.research-description-img{
-  width: "33%";
-}
-
-.research-description-text{
-  width: "66%";
-}
 
