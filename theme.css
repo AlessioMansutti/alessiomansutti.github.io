@@ -144,6 +144,14 @@ ul {
     margin: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width:100%;
+    width:85%;
+}
+
+.research-description-img{
+  width: "33%";
+}
+
+.research-description-text{
+  width: "66%";
 }
 
