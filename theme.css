@@ -102,6 +102,7 @@ ul {
 
 .about-me{
     margin: 50px; 
+    text-align: justify;
     text-justify: inter-word;
     max-width: 850px;
 
