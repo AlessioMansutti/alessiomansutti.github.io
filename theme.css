@@ -78,6 +78,7 @@ ul {
   font-size: 16px;
   margin-right: 4px;
   cursor: pointer;
+  background-color: var(--head-color);
 }
 
 .gray-button {background-color: #e7e7e7; color: black;} /* Gray */
@@ -101,7 +102,6 @@ ul {
 
 .about-me{
     margin: 50px; 
-    text-align: justify;
     text-justify: inter-word;
     max-width: 850px;
 }
