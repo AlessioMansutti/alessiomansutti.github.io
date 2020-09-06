@@ -1,0 +1,125 @@
+/* Color Scheme */
+
+:root {
+    --head-color: #64B6AC;
+    --bg-color: #FFFFFF;
+    --link-color: #444444;
+}
+
+/* Page Style */
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+    color: var(--link-color);
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.header {
+  background-color: var(--head-color);
+  color: var(--bg-color);
+  padding: 5px;
+}
+
+.menu {
+  background-color: var(--head-color);
+  color: var(--bg-color);
+  padding: 10px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.gray-button {background-color: #e7e7e7; color: black;} /* Gray */
+
+/* For desktop: */
+.col-1 {width: 100%;}
+.col-05 {width: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Content Style */
+
+.about-me{
+    margin: 50px; 
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 850px;
+}
+
+.conference{
+    margin-right: 20px; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.profile-image{
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width:140px;
+    border-radius: 50%;
+}
+
+.researchtitle {
+    text-align: center;
+  }
