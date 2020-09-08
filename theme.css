@@ -182,3 +182,42 @@ ul {
     text-align: center;
   }
 
+/* BIB STYLE*/
+
+.references {
+  width: 100%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.bibentry:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.bibentry {
+  height: 40px;
+}
+
+.bibbook, .bibtitle, .bibauthors {
+  border: 1px solid #bbbbbb;
+  text-align: left;
+  padding: 8px;
+  vertical-align: middle;
+  padding:0 10px;
+}
+
+.bibbook {
+  text-align: right;
+  font-size:12pt;
+  width: 7%;
+}
+
+.bibtitle {
+  width: 70%;
+}
+
+.bibauthors {
+  width: 23%;
+  font-size:12pt;
+}
