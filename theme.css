@@ -12,6 +12,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -97,14 +102,25 @@ li{
 .gray-button {background-color: #e7e7e7; color: black;} /* Gray */
 
 /* For desktop: */
-.col-1 {
-    width: 100%;
+
+.projectwrapper {
+  clear: left;
+  column-count: 2;
+  column-gap: 15px;
 }
 
-.col-05 {width: 50%;
-    border-style: solid;
-    border-color: white;
-    border-width: 8px;
+.project{
+  display: inline-block;
+  width: auto;
+  break-inside: avoid;
+  margin: 0 0 15px;
+
+  border-style: solid;
+  border-color: white;
+}
+
+.col-1 {
+    width: 100%;
 }
 
 .res-desc-L {
@@ -118,6 +134,10 @@ li{
     display: inline-block;
     vertical-align: middle;
   }
+
+.res-desc-B {
+  margin:15px;
+}
 
 .research-image{
     border-style: solid;
@@ -144,10 +164,11 @@ li{
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 955px) {
   /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
+  [class*="projectwrapper"] {
+    clear: left;
+    column-count: 1;
   }
 
   [class*="res-desc-L"] {

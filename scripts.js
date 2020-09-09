@@ -1,3 +1,6 @@
+
+/* Ajax-like load content*/
+
 function loadDoc(filename) {
     var xhttp = new XMLHttpRequest();
 
@@ -11,7 +14,20 @@ function loadDoc(filename) {
     xhttp.send();
 }
 
+/* Projects colors */
+
 function changeBackground() {
+    var boxes = document.querySelectorAll(".randomcolor");
+    let colors = [
+                '#EDFDDD', '#FFEFDF', '#ECEFFC', '#FBFFDC', 
+                '#DEFFDE', '#ECDEEE', '#CFDFEF', '#EDECDC'];
+
+    for (i = 0; i < boxes.length; i++) {
+        boxes[i].style.backgroundColor = colors[i % colors.length];
+    }
+}
+
+function randomBackground() {
     var boxes = document.querySelectorAll(".randomcolor");
 
     for (i = 0; i < boxes.length; i++) {
