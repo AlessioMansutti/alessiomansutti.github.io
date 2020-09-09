@@ -130,13 +130,14 @@ li{
   }
 
 .res-desc-R {
-    width:73%;
+    width:72%;
     display: inline-block;
     vertical-align: middle;
   }
 
 .res-desc-B {
-  margin:15px;
+  width: auto;
+  margin: 15px;
 }
 
 .research-image{
@@ -174,10 +175,12 @@ li{
   [class*="res-desc-L"] {
     width: 100%;
     justify-content: center;
+    margin:15px;
   }
 
   [class*="res-desc-R"] {
-    width: 100%;
+    width: auto;
+    margin:15px;
   }
 
   [class*="research-image"] {
