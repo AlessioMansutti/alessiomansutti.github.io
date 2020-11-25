@@ -165,6 +165,15 @@ li{
   width: 100%;
 }
 
+.teachschool {
+  text-align: right;
+  width: 12%;
+}
+
+.teachtitle {
+  width: 88%;
+}
+
 .profile-image{
   margin: 20px;
   margin-top: 20px;
