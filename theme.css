@@ -149,29 +149,11 @@ li{
     width:85%;
 }
 
-.bibbook {
-  text-align: right;
-  width: 7%;
-}
-
-.bibtitle {
-  width: 93%;
-}
-
 .references {
   width: 100%;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-}
-
-.teachschool {
-  text-align: right;
-  width: 12%;
-}
-
-.teachtitle {
-  width: 88%;
 }
 
 .profile-image{
@@ -250,6 +232,15 @@ li{
   height: 40px;
 }
 
+.bibbook {
+  text-align: right;
+  width: 7%;
+}
+
+.bibtitle {
+  width: 93%;
+}
+
 .bibbook, .bibtitle {
   border: 1px solid #bbbbbb;
   text-align: left;
@@ -259,4 +250,23 @@ li{
   font-size:12pt;
 }
 
+/* TEACHING */
+
+.teachschool {
+  text-align: right;
+  width: 9%;
+}
+
+.teachtitle {
+  width: 91%;
+}
+
+.teachschool, .teachtitle {
+  border: 1px solid #bbbbbb;
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+  padding:0 10px;
+  font-size:12pt;
+}
 
