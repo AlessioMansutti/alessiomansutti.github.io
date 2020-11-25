@@ -235,10 +235,12 @@ li{
 .bibbook {
   text-align: right;
   width: 7%;
+  min-width: 100px;
 }
 
 .bibtitle {
   width: 93%;
+  text-align: right;
 }
 
 .bibbook, .bibtitle {
@@ -254,11 +256,13 @@ li{
 
 .teachschool {
   text-align: right;
-  width: 9%;
+  width: 10%;
+  min-width: 100px;
 }
 
 .teachtitle {
-  width: 91%;
+  width: 90%;
+  text-align: right;
 }
 
 .teachschool, .teachtitle {
