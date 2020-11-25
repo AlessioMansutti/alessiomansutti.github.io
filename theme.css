@@ -101,6 +101,81 @@ li{
 
 .gray-button {background-color: #e7e7e7; color: black;} /* Gray */
 
+
+/* Content Style */
+
+.about-me{
+  margin: 50px; 
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 890px;
+
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.conference{
+  margin-right: 20px; 
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.researchtitle {
+  text-align: center;
+}
+
+
+/* Bibliography and Talk style */
+
+.bibentry:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.bibentry {
+  height: 40px;
+}
+
+.bibbook {
+  text-align: right;
+  width: 7%;
+  min-width: 100px;
+}
+
+.bibtitle {
+  width: 93%;
+}
+
+.bibbook, .bibtitle {
+  border: 1px solid #bbbbbb;
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+  padding:0 10px;
+  font-size:12pt;
+}
+
+/* Teaching style */
+
+.teachschool {
+  text-align: right;
+  width: 10%;
+  min-width: 100px;
+}
+
+.teachtitle {
+  width: 90%;
+}
+
+.teachschool, .teachtitle {
+  border: 1px solid #bbbbbb;
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+  padding:0 10px;
+  font-size:12pt;
+}
+
 /* For desktop: */
 
 .projectwrapper {
@@ -164,8 +239,9 @@ li{
   border-radius: 50%;
 }
 
+/* For mobile phones: */
+
 @media only screen and (max-width: 955px) {
-  /* For mobile phones: */
   [class*="projectwrapper"] {
     clear: left;
     column-count: 1;
@@ -197,78 +273,13 @@ li{
     margin-right: auto;
     margin-left: auto;
   }
-}
 
-/* Content Style */
-
-.about-me{
-    margin: 50px; 
-    text-align: justify;
-    text-justify: inter-word;
-    max-width: 890px;
-
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-}
-
-.conference{
-    margin-right: 20px; 
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.researchtitle {
-    text-align: center;
+  [class*="teachschool"] {
+    text-align: right;
+    width: 20%;
   }
 
-/* BIB STYLE*/
-
-.bibentry:nth-child(even) {
-  background-color: #dddddd;
+  [class*="teachtitle"] {
+    width: 80%;
+  }
 }
-
-.bibentry {
-  height: 40px;
-}
-
-.bibbook {
-  text-align: right;
-  width: 7%;
-  min-width: 100px;
-}
-
-.bibtitle {
-  width: 93%;
-}
-
-.bibbook, .bibtitle {
-  border: 1px solid #bbbbbb;
-  text-align: left;
-  padding: 8px;
-  vertical-align: top;
-  padding:0 10px;
-  font-size:12pt;
-}
-
-/* TEACHING */
-
-.teachschool {
-  text-align: right;
-  width: 10%;
-  min-width: 100px;
-}
-
-.teachtitle {
-  width: 90%;
-}
-
-.teachschool, .teachtitle {
-  border: 1px solid #bbbbbb;
-  text-align: left;
-  padding: 8px;
-  vertical-align: top;
-  padding:0 10px;
-  font-size:12pt;
-}
-
