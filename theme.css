@@ -198,6 +198,10 @@ li{
     width: 100%;
 }
 
+.col-70 {
+  width: 70%;
+}
+
 .res-desc-L {
     width: 25%;
     display: inline-block;
