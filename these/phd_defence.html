@@ -1,90 +1,93 @@
 <div class="col-70">
 
-<h1>PhD Defence</h1>
-
-<h3>General information:</h3>
-
-<p>
-  I will defend my thesis, titled
-</p>
 <center>
-  <i>
-      "Reasoning with Separation Logics: Complexity, Expressive Power, Proof Systems",
-  </i>
+<div class="article">
+  <h1>PhD Defence</h1>
+
+  <h3>General information:</h3>
+
+  <p>
+    I will defend my thesis, titled
+  </p>
+  <center>
+    <i>
+        "Reasoning with Separation Logics: Complexity, Expressive Power, Proof Systems",
+    </i>
+  </center>
+  <p>
+    on Thursday 10th of December, 2020, at 15:30 CET. The defence will take place fully online.
+  </p>
+
+  <p>
+    The manuscript is available <a href="these/manuscript.pdf">here</a>.
+  </p>
+
+  <h3>Jury:</h3>
+
+  <ul>
+    <li>Eric Gr&auml;del (RWTH Aachen), President  </li>
+    <li>Radu Iosif (Universit&eacute; Grenoble Alpes), Reviewer</li>
+    <li>David Pym (University College London), Reviewer</li>
+    <li>Leonid Libkin (&Eacute;cole Normale sup&eacute;rieure), Examiner</li>
+    <li>Mihaela Sighireanu (ENS Paris-Saclay), Examiner</li>
+    <li>St&eacute;phane Demri (ENS Paris-Saclay), Advisor</li>
+    <li>&Eacute;tienne Lozes (Universit&eacute; C&ocirc;te d'Azur), Co-advisor</li>
+  </ul>
+
+  <h3>Abstract:</h3>
+
+  <p>
+  This thesis proposes an in-depth study of classical decision problems, such as satisfiability and
+  validity, for separation logics: well-known assertion languages developed to verify sequential
+  and concurrent programs with dynamic memory allocation. The main features of separation
+  logics are given by two binary connectives: the separating conjunction 
+  <math style="letter-spacing: -5px;">&lowast;</math>&nbsp;
+  and the separating
+  implication <math style="letter-spacing: -5px;">&#9472;&lowast;</math>&nbsp;. 
+  These two connectives use second-order features in order to express spatial
+  properties, and allow the verifier to modularly analyse the memory.
+  </p>
+
+  <p>
+  The first part of the thesis focuses on the notion of reachability predicates in separation
+  logics. A location <i>l<sub>1</sub></i> (a.k.a. a memory address) is said to be reachable from a 
+  second location <i>l<sub>2</sub></i> whenever subsequent dereferentiation of <i>l<sub>2</sub></i> 
+  yield <i>l<sub>1</sub></i>. Together with first-order quantification,
+  reachability predicates allow to check for several robustness properties of the memory, such as
+  acyclicity (i.e. the absence of cycles) and garbage freedom (i.e. the absence of dangling pointers).
+  Our goal is to devise a separation logic featuring these types of predicates, while keeping the
+  complexity of its satisfiability problem in check. This is easier said than done, as we show
+  that several separation logics are largely intractable (undecidable or non-elementary decidable).
+  Nonetheless, by studying the sources of intractability we are able to design a PSpace fragment
+  of first-order separation logic that is able to express the desired robustness properties. The
+  PSpace membership is shown through the core formulae technique, a model theoretic approach
+  that is reminiscent of Gaifman’s locality theorem for first-order logic.
+  </p>
+
+  <p>
+  The second part of the thesis tackles the open problem of designing Hilbert-style 
+  axiomatisations for separation logics. An axiomatisation is said to be Hilbert-style (or internal) 
+  whenever its axioms and inference rules are built solely from formulae of the logic, without any 
+  external machinery such as labels or nominals. In particular, we introduce the first sound and 
+  complete internal proof system for the quantifier-free fragment of separation logic. The completeness 
+  of the system is shown by taking advantage of the core formulae technique introduced in the first
+  part of the thesis. In order to show that this technique can be reused on other logics, we design
+  an axiomatisation for a modal logic enriched with the composition operator from ambient logic
+  (a logic to verify distributed systems). The two proof systems reveal interesting connections
+  between separation logics and ambient logics.
+  </p>
+
+  <p>
+  Motivated by the similarities in their proof systems, in the third part of the thesis we dig deep
+  in the connections between separation logic and ambient logic. To carry out our comparison, we
+  devise a suitable framework based on modal logic. This framework gives us the common ground
+  needed in order to study the two logics from the point of view of their spatial connectives: the
+  separating conjunction 
+  <math style="letter-spacing: -5px;">&lowast;</math>&nbsp;
+  for separation logic and the parallel composition for ambient logic.
+  Surprising similarities and differences are discovered, both in terms of expressive power and
+  computational complexity.
+  </p>
+</div>
 </center>
-<p>
-  on Thursday 10th of December, 2020, at 15:30 CET. The defence will take place fully online.
-</p>
-
-<p>
-  The manuscript is available <a href="these/manuscript.pdf">here</a>.
-</p>
-
-<h3>Jury:</h3>
-
-<ul>
-  <li>Eric Gr&auml;del (RWTH Aachen), President  </li>
-  <li>Radu Iosif (Universit&eacute; Grenoble Alpes), Reviewer</li>
-  <li>David Pym (University College London), Reviewer</li>
-  <li>Leonid Libkin (&Eacute;cole Normale sup&eacute;rieure), Examiner</li>
-  <li>Mihaela Sighireanu (ENS Paris-Saclay), Examiner</li>
-  <li>St&eacute;phane Demri (ENS Paris-Saclay), Advisor</li>
-  <li>&Eacute;tienne Lozes (Universit&eacute; C&ocirc;te d'Azur), Co-advisor</li>
-</ul>
-
-<h3>Abstract:</h3>
-
-<p>
-This thesis proposes an in-depth study of classical decision problems, such as satisfiability and
-validity, for separation logics: well-known assertion languages developed to verify sequential
-and concurrent programs with dynamic memory allocation. The main features of separation
-logics are given by two binary connectives: the separating conjunction 
-<math style="letter-spacing: -5px;">&lowast;</math>&nbsp;
-and the separating
-implication <math style="letter-spacing: -5px;">&#9472;&lowast;</math>&nbsp;. 
-These two connectives use second-order features in order to express spatial
-properties, and allow the verifier to modularly analyse the memory.
-</p>
-
-<p>
-The first part of the thesis focuses on the notion of reachability predicates in separation
-logics. A location <i>l<sub>1</sub></i> (a.k.a. a memory address) is said to be reachable from a 
-second location <i>l<sub>2</sub></i> whenever subsequent dereferentiation of <i>l<sub>2</sub></i> 
-yield <i>l<sub>1</sub></i>. Together with first-order quantification,
-reachability predicates allow to check for several robustness properties of the memory, such as
-acyclicity (i.e. the absence of cycles) and garbage freedom (i.e. the absence of dangling pointers).
-Our goal is to devise a separation logic featuring these types of predicates, while keeping the
-complexity of its satisfiability problem in check. This is easier said than done, as we show
-that several separation logics are largely intractable (undecidable or non-elementary decidable).
-Nonetheless, by studying the sources of intractability we are able to design a PSpace fragment
-of first-order separation logic that is able to express the desired robustness properties. The
-PSpace membership is shown through the core formulae technique, a model theoretic approach
-that is reminiscent of Gaifman’s locality theorem for first-order logic.
-</p>
-
-<p>
-The second part of the thesis tackles the open problem of designing Hilbert-style 
-axiomatisations for separation logics. An axiomatisation is said to be Hilbert-style (or internal) 
-whenever its axioms and inference rules are built solely from formulae of the logic, without any 
-external machinery such as labels or nominals. In particular, we introduce the first sound and 
-complete internal proof system for the quantifier-free fragment of separation logic. The completeness 
-of the system is shown by taking advantage of the core formulae technique introduced in the first
-part of the thesis. In order to show that this technique can be reused on other logics, we design
-an axiomatisation for a modal logic enriched with the composition operator from ambient logic
-(a logic to verify distributed systems). The two proof systems reveal interesting connections
-between separation logics and ambient logics.
-</p>
-
-<p>
-Motivated by the similarities in their proof systems, in the third part of the thesis we dig deep
-in the connections between separation logic and ambient logic. To carry out our comparison, we
-devise a suitable framework based on modal logic. This framework gives us the common ground
-needed in order to study the two logics from the point of view of their spatial connectives: the
-separating conjunction 
-<math style="letter-spacing: -5px;">&lowast;</math>&nbsp;
-for separation logic and the parallel composition for ambient logic.
-Surprising similarities and differences are discovered, both in terms of expressive power and
-computational complexity.
-</p>
-
 </div>

@@ -198,10 +198,6 @@ li{
     width: 100%;
 }
 
-.col-70 {
-  width: 70%;
-}
-
 .res-desc-L {
     width: 25%;
     display: inline-block;
@@ -241,6 +237,12 @@ li{
   margin-bottom: 20px;
   max-width:140px;
   border-radius: 50%;
+}
+
+/*Content article*/
+
+.article{
+  width:70%;
 }
 
 /* For mobile phones: */
@@ -285,5 +287,9 @@ li{
 
   [class*="teachtitle"] {
     width: 80%;
+  }
+
+  [class*="article"] {
+    width: 100%;
   }
 }
