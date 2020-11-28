@@ -242,7 +242,7 @@ li{
 /*Content article*/
 
 .article{
-  width:70%;
+  max-width:1080px;
 }
 
 /* For mobile phones: */
