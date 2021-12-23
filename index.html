@@ -15,7 +15,7 @@
 
   <!-- Body -->
 
-  <body onload="loadDoc('homepage.html'); setTimeout(changeBackground, 200); loadDoc('homepage.html');">
+  <body onload="loadDoc('homepage.html'); setTimeout(changeBackground, 200); setTimeout(loadDoc,200,['homepage.html']);">
 
     <div class="header">
       <table>
