@@ -30,6 +30,7 @@ html, body {
 html {
   font-family: "Lucida Sans", sans-serif;
   max-width: 1980px;
+  text-align: center;
 }
 
 body {
