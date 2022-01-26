@@ -29,11 +29,14 @@ html, body {
 
 html {
   font-family: "Lucida Sans", sans-serif;
-  max-width: 1980px;
+  margin: auto;
+  background-color: #EEE;
 }
 
 body {
   margin: 0px;
+  max-width: 1980px;
+  background-color: #FFF;
 }
 
 p {
