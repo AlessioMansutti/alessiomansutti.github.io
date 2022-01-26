@@ -124,6 +124,11 @@ li{
   text-align: center;
 }
 
+.researchsubtitle {
+  float: right;
+  font-weight: bold;
+}
+
 
 /* Bibliography and Talk style */
 
