@@ -67,7 +67,7 @@ a:active {
 
 ul {
     list-style: none;
-    padding-left: 0;
+    padding-left: 5px;
     list-style-type: square;
 }
 
