@@ -33,9 +33,12 @@ html {
 }
 
 body {
-  margin: auto;
   max-width: 1980px;
   background-color: #FFF;
+}
+
+html, body{
+  margin: auto;
   height: 100%;
 }
 
