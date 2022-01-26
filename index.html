@@ -23,7 +23,7 @@
             <td valign="top"><img class="profile-image" src="images/me.jpg" alt="me"></td>
 
             <td valign="middle" halign="center"><h1>Alessio Mansutti</h1>
-                <button class="button" onclick="loadDoc('homepage.html'); setTimeout(changeBackground, 200);">
+                <button class="button" onclick="window.location.reload();">
                   <i class="fas fa-home fa-fw mr-2"></i> Home</button>
                 <button class="button" onclick="loadDoc('publications.html')">
                   <i class="fas fa-search fa-fw mr-2"></i> Publications</button>
@@ -41,7 +41,177 @@
     
 
     <div class="main-wrapper" id="the-content">
-      <iframe src = "homepage.html">
+      <div class="col-1">
+        <div class="about-me">
+            <h2>Welcome!</h2>
+            <p>I'm a Research Associate in the Automated Verification Group of the University of Oxford, 
+            working
+            with 
+            <a href="http://www.cs.ox.ac.uk/people/christoph.haase/home/">Christoph Haase</a> 
+            in his ERC project 
+            <a href="http://www.cs.ox.ac.uk/people/christoph.haase/home/project/ariat/">ARiAT</a>, 
+            and a lecturer of Trinity College.
+            Previously, I was a PhD student at LSV (ENS Paris-Saclay) under the supervision 
+            of <a href="http://www.lsv.fr/~demri/">Stéphane Demri</a> and 
+            <a href="http://www.i3s.unice.fr/~elozes/">Étienne Lozes</a> (i3S).
+            </p>
+            <p>Below, you will find a summary of current and past projects. All my papers are available 
+                <a onclick="loadDoc('publications.html'); setTimeout(changeBackground, 200);">here
+                </a>.
+            </p>
+        </div>
+      </div> 
+      
+      <div class="projectwrapper">
+          
+      <div class="randomcolor project">
+          <h3 class="researchtitle">The Complexity of Arithmetic Theories</h3>
+          <hr>
+              <div class="res-desc-L">
+                  <img class="research-image" src="images/ariat.png" alt="the star">
+              </div>
+              <div class="res-desc-R">
+                  <p>
+                      The goal of the ERC project ARiAT is to advance the state-of-the-art in decision procedures for expressive arithmetic theories, improve complexity bounds and push the decidability frontier of extensions of arithmetic theories with counting and non-linear operations.
+                      See <a href="http://www.cs.ox.ac.uk/people/christoph.haase/home/project/ariat/">here</a> for more information.
+                  </p>
+              </div>
+          <hr>
+          <div class="res-desc-B">
+              <h4>Papers:</h4>
+              <ul>
+                  <li>
+                      <a href="papers/2022/PA-VC.pdf">Geometric decision procedures and the VC dimension of linear arithmetic theories</a>
+                      (submitted)
+                  </li>
+                  <li>
+                      Quantifier elimination for counting extensions of Presburger arithmetic
+                      (FOSSACS'22, to appear)
+                  </li>
+                  <li><a href="https://drops.dagstuhl.de/opus/volltexte/2021/14495">
+                          On deciding linear arithmetic constraints over p-adic integers for all primes
+                      </a>
+                      (MFCS'21)
+                  </li>
+              </ul>
+          </div>
+      </div>
+      
+      <div class="randomcolor project">
+          <h3 class="researchtitle">Reachability Predicates in Separation Logic</h3>
+          <hr>
+              <div class="res-desc-L">
+                  <img class="research-image" src="images/reach.png" alt="the star">
+              </div>
+              <div class="res-desc-R">
+                  <p>
+                      The goal of this project is to study the complexity and expressiveness of separation logics featuring reachability predicates.
+                      <a href="http://www0.cs.ucl.ac.uk/staff/p.ohearn/SeparationLogic/Separation_Logic/SL_Home.html">Separation logic</a> is a mathematical formalism for reasoning about pointer programs. 
+                      Among the various features of this logic, reachability predicates have a special status, as they allow to express crucial properties of the memory such as acyclicity and garbage-freedom.
+                  </p>
+              </div>
+          <hr>
+          <div class="res-desc-B">
+              <h4>Papers:</h4>
+              <ul>
+                  <li><a href="https://dl.acm.org/doi/10.1145/3448269">
+                      The effects of adding reachability predicates in quantifier-free separation logic
+                      </a>
+                      (TOCL'21 and FOSSACS'18)
+                  </li>
+                  <li><a href="https://link.springer.com/chapter/10.1007/978-3-030-45231-5_24">
+                          An auxiliary logic on trees
+                      </a> 
+                      (FOSSACS'20)
+                  </li>
+                  <li><a href="https://drops.dagstuhl.de/opus/volltexte/2018/9941">
+                          Extending propositional separation logic for robustness properties
+                      </a> 
+                      (FSTTCS'18)
+                  </li>
+              </ul>
+          </div>
+      </div>  
+      
+      <div class="randomcolor project">
+          <h3 class="researchtitle">Modal Logics with Composition Operators</h3>
+          <hr>
+              <div class="res-desc-L">
+                  <img class="research-image" src="images/the-star.png" alt="the star">
+              </div>
+              <div class="res-desc-R">
+                  <p>
+                      The goal of this project is to develop a framework of modal logics featuring different forms of frame composition
+                      that are heavily inspired by the <a href="https://www.jstor.org/stable/421090">logic of Bunched Implications</a>. By relying on standard techniques from finite model theory, 
+                      we study the expressiveness and computational complexity 
+                      of our logics, and compare them with more standard formalisms (e.g. graded modal logic).
+                  </p>
+              </div>
+          <hr>
+          <div class="res-desc-B">
+          <h4>Papers:</h4>
+              <ul>
+                  <li>
+                      <a href="papers/2022/FOSSACS-FM.pdf">
+                          Modal logics and local quantifiers: a zoo in the elementary
+                          hierarchy
+                      </a>
+                      (FOSSACS'22, to appear)
+                  </li>
+                  <li><a href="https://dl.acm.org/doi/abs/10.1145/3373718.3394787">
+                          Modal logics with composition on finite forests: expressivity and complexity
+                      </a>
+                      (LICS'20, <a href="https://www.youtube.com/watch?v=lviuGYX6_9k"><i class="fas fa-video fa-fw mr-2"></i></a>)
+                  </li>
+                  <li><a href="https://www.ijcai.org/Proceedings/2020/233">
+                          A framework for reasoning about dynamic axioms in description logics
+                      </a> 
+                      (IJCAI'20)
+                  </li>
+              </ul>
+          </div>
+      </div>
+      
+      <div class="randomcolor project">
+          <h3 class="researchtitle">Internal Calculi for Spatial Logics</h3>
+          <hr>
+              <div class="res-desc-L">
+                  <img class="research-image" src="images/frame.png" alt="the star">
+              </div>
+              <div class="res-desc-R">
+                  <p>
+                      The goal of this project is to design internal axiomatisations for 
+                      spatial logics such as separation logics and ambient logics.
+                      Designing an internal (a.k.a. Hilbert-style) axiomatisation for
+                      your favourite logic is usually quite challenging. It does not lead necessarily to optimal
+                      decision procedures, but the completeness proof usually provides essential insights to better
+                      understand the logic at hand, and develop better abstractions that can improve the performances of tools.
+                  </p>
+              </div>
+          <hr>
+          <div class="res-desc-B">
+              <h4>Papers:</h4>
+              <ul>
+                  <li><a href="https://lmcs.episciences.org/8347">
+                          A complete axiomatisation for quantifier-free separation logic
+                      </a> 
+                      (LMCS'21)
+                  </li>
+                  <li><a href="https://academic.oup.com/logcom/article-abstract/31/3/832/6275668">
+                          Internal proof calculi for modal logics with separating conjunction
+                      </a>
+                      (JLC'21 and JELIA'19)
+                  </li>
+                  <li><a href="https://drops.dagstuhl.de/opus/volltexte/2020/11662">
+                          Internal calculi for separation logics
+                      </a> 
+                      (CSL'20)
+                  </li>
+              </ul>
+          </div>
+      </div>
+      
+      </div> <!-- end project wrapper-->
     </div> 
   </body>
 </html>
