@@ -127,6 +127,8 @@ li{
 }
 
 .researchsubtitle {
+  color: #000; /* Fallback for older browsers */
+  color: rgba(0, 0, 0, 0.5);
   float: right;
   font-weight: bold;
 }
