@@ -29,12 +29,11 @@ html, body {
 
 html {
   font-family: "Lucida Sans", sans-serif;
-  margin: auto;
   background-color: #EEE;
 }
 
 body {
-  margin: 0px;
+  margin: auto;
   max-width: 1980px;
   background-color: #FFF;
 }
