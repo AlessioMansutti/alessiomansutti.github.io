@@ -157,12 +157,12 @@ li{
 
 .bibbook {
   text-align: right;
-  width: 8%;
+  width: 12%;
   min-width: 100px;
 }
 
 .bibtitle {
-  width: 92%;
+  width: 88%;
 }
 
 .bibbook, .bibtitle {
