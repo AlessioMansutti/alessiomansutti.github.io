@@ -257,7 +257,9 @@ li{
     margin: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width:85%;
+    width: 400px;
+    height: 300px; 
+    object-fit: contain;
 }
 
 .references {
