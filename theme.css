@@ -1,6 +1,7 @@
 /* Color Scheme */
 
 :root {
+    --head-color-dark: #248B84;
     --head-color: #64B6AC;
     --bg-color: #FFFFFF;
     --link-color: #444444;
@@ -86,6 +87,7 @@ li{
   background-color: var(--head-color);
   color: var(--bg-color);
   padding: 5px;
+  background-image: url('images/bg.png');
 }
 
 .menu {
@@ -104,6 +106,12 @@ li{
   font-size: 16px;
   margin-right: 4px;
   cursor: pointer;
+  background-color: var(--head-color);
+}
+
+.buttons-case {
+  padding: 10px 20px;
+  text-align: center;
   background-color: var(--head-color);
 }
 
@@ -274,6 +282,7 @@ li{
   margin-bottom: 20px;
   max-width:140px;
   border-radius: 50%;
+  border: 5px solid #64B6AC;
 }
 
 /*Content article*/
@@ -292,6 +301,7 @@ li{
 
   [class*="profile-image"] {
     max-width: 0px;
+    border: 0px;
   }
 
   [class*="res-desc-L"] {
