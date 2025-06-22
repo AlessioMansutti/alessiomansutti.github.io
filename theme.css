@@ -275,6 +275,15 @@ li{
 }
 
 .col-1 {
+    column-count: 1;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-2 {
     column-count: 2;
     width: 100%;
     justify-content: center; 
@@ -339,7 +348,7 @@ li{
     column-count: 1;
   }
 
-  [class*="col-1"] {
+  [class*="col-2"] {
     column-count: 1;
   }
 
