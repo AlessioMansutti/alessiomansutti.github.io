@@ -342,6 +342,36 @@ li{
   width:60%;
 }
 
+/* YicesTRA specials */
+
+.ytra-logo{
+  height: 120px; 
+  object-fit: contain;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.ytra-project{
+  display: inline-block;
+  width: auto;
+  break-inside: avoid;
+  margin: 0 0 15px;
+
+  color: white;
+  border-style: solid;
+  background-color: #2f2f2f;
+}
+
+.ytra-project a {
+  color: #7fb3e6;
+}
+
+.ytra-hr {
+  border: none;              /* Remove default browser borders */
+  height: 2px;               /* Set desired thickness */
+  background-color: #5b5b5b; 
+}
+
 /* For mobile phones: */
 
 @media only screen and (max-width: 1080px) {
