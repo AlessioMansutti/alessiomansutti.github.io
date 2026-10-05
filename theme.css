@@ -359,7 +359,8 @@ li{
 
   color: white;
   border-style: solid;
-  background-color: #2f2f2f;
+  border-color: #3d556b;
+  background-color: #3a3a3f;
 }
 
 .ytra-project a {
@@ -369,7 +370,7 @@ li{
 .ytra-hr {
   border: none;              /* Remove default browser borders */
   height: 2px;               /* Set desired thickness */
-  background-color: #5b5b5b; 
+  background-color: #3d556b; 
 }
 
 /* For mobile phones: */
